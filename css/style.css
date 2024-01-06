@@ -270,6 +270,28 @@ header {
     border-radius: 50%;
 }
 
+.square {
+    width: 12px;
+    height: 12px;
+    transform: rotate(-25deg);
+    border-radius: 3px;
+    background: #EB0029;
+}
+
+
+.square1{
+    position: absolute;
+    right: -150px;
+    bottom: -150px;
+}
+
+
+.square2{
+    position: absolute;
+    right: -115%;
+    bottom: 30%;
+}
+
 @keyframes round {
     0% {
         transform: rotate(0deg);
@@ -394,7 +416,7 @@ header {
     margin-top: 5px;
 }
 
-.price > small{
+.price>small {
     color: #EB0029;
     font-size: 12px;
     margin-top: 5px;
