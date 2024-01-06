@@ -113,13 +113,14 @@ header {
     /* border-radius: 50px; */
 }
 
-.primary__btn{
+.primary__btn {
     font-size: 20px;
     color: #fff;
     text-decoration: none;
     border-radius: 50px;
     background-color: #EB0029;
     padding: 11px 20px;
+    text-transform: capitalize;
 }
 
 
@@ -160,8 +161,12 @@ header {
     font-family: 'Rubik', sans-serif;
     font-size: 67px;
     font-weight: 700;
-    line-height: 85px; /* 126.866% */
+    line-height: 85px;
+    /* 126.866% */
+    margin-top: 50px;
 }
+
+
 
 .food {
     color: #EB0029;
@@ -172,10 +177,23 @@ header {
     line-height: 85px;
 }
 
+.and {
+    color: #010F1C;
+    font-family: 'Rubik', sans-serif;
+    font-size: 73px;
+    font-weight: 700;
+    line-height: 85px;
+}
+
 .description {
-    font-size: 16px;
-    font-weight: 400;
+    margin-top: 20px;
     margin-bottom: 30px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
 }
 
 .get__btn {
@@ -187,11 +205,31 @@ header {
     border-radius: 50px;
 }
 
+.play__btn {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.play__btn i {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #F2C94C;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
 .home__img {
-    width: 45%;
+    width: 55%;
     display: inline-block;
     position: relative;
 
+    margin-top: 100px;
 
 }
 
@@ -206,8 +244,8 @@ header {
     background-color: #F2C94C;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
-    right: 20%;
+    top: 45%;
+    right: 10%;
 }
 
 .imgs {
@@ -230,7 +268,6 @@ header {
     height: 40px;
     background-color: #fff;
     border-radius: 50%;
-    animation: round 10s infinite;
 }
 
 @keyframes round {
@@ -241,4 +278,124 @@ header {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.home__footer-left {
+    display: flex;
+    width: 323px;
+    height: 71px;
+    padding: 9px 15px;
+    position: absolute;
+    bottom: 100px;
+    left: -160px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+.home__footer-img img {
+    display: flex;
+    width: 47px;
+    height: 47px;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 50px;
+    background: #FEE9DE;
+    margin-top: 0px;
+}
+
+.home__footer-img {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__footer-title {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.4px;
+    /* 149.333% */
+}
+
+.home__footer-subtitle {
+    color: #828282;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22.4px;
+    /* 186.667% */
+}
+
+.home__footer-left i {
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #EB0029;
+    color: #fff;
+}
+
+.home__footer-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 272px;
+    height: 131px;
+    padding: 7px 30px 7px 17px;
+    position: absolute;
+    bottom: -40px;
+    right: -60px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10);
+}
+
+.home__footer-right img {
+    width: 113px;
+    height: 97px;
+    flex-shrink: 0;
+    margin-top: 0;
+}
+
+.home__footer-food-title {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.4px;
+    /* 149.333% */
+    margin-bottom: 10px;
+}
+
+.foode__star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.foode__star i {
+    color: #F2C94C;
+    margin-bottom: 7px;
+}
+
+.price {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.4px;
+    margin-top: 5px;
+}
+
+.price > small{
+    color: #EB0029;
+    font-size: 12px;
+    margin-top: 5px;
 }
