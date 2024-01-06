@@ -127,6 +127,11 @@ header {
 /* Main Related Style  */
 
 
+main section {
+    margin-top: 100px;
+}
+
+
 /* Home Section Related Style */
 
 .home {
@@ -189,7 +194,6 @@ header {
     margin-top: 20px;
     margin-bottom: 30px;
     color: #333;
-    font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
@@ -279,14 +283,14 @@ header {
 }
 
 
-.square1{
+.square1 {
     position: absolute;
     right: -150px;
     bottom: -150px;
 }
 
 
-.square2{
+.square2 {
     position: absolute;
     right: -115%;
     bottom: 30%;
@@ -420,4 +424,97 @@ header {
     color: #EB0029;
     font-size: 12px;
     margin-top: 5px;
+}
+
+
+
+/* What I Serve Related Style */
+.serve {
+    margin-top: 200px;
+    position: relative;
+}
+
+.serve__square {
+    width: 14px;
+    height: 14px;
+    transform: rotate(-25deg);
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #F2C94C;
+    position: absolute;
+    top: 50px;
+    right: 20%;
+}
+
+.square__red {
+    position: absolute;
+    left: 30%;
+    background-color: #EB0029;
+}
+
+.serve__bottom-square {
+    width: 14px;
+    height: 14px;
+    transform: rotate(-25deg);
+    border-radius: 15px;
+    background: #EB0029;
+    position: absolute;
+    bottom: -100px;
+    right: 30%;
+}
+
+.section__subtitle {
+    color: #EB0029;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.4px;
+    /* 124.444% */
+    letter-spacing: 2.88px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__title {
+    color: #010F1C;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    /* 133.333% */
+    width: 532px;
+    margin: 0 auto;
+}
+
+.serve__container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.serve__item img {
+    width: 232.955px;
+    height: 205px;
+    flex-shrink: 0;
+    /* margin-bottom: 24px; */
+}
+
+.serve__title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 70px;
+    /* 250% */
+}
+
+.serve__subtitle {
+    color: #333;
+    /* text-align: center; */
+    width: 313px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
 }
