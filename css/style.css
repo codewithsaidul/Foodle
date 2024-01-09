@@ -33,14 +33,16 @@ img {
 
 header {
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
     height: 3.5rem;
     padding: 20px 0;
-    /* background-color: red; */
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .nav {
-    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +82,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .search i {
@@ -135,7 +137,7 @@ main section {
 /* Home Section Related Style */
 
 .home {
-    margin-top: 30px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -198,6 +200,7 @@ main section {
     font-weight: 500;
     line-height: 30px;
     /* 166.667% */
+    width: 450px;
 }
 
 .get__btn {
@@ -292,7 +295,7 @@ main section {
 
 .square2 {
     position: absolute;
-    right: -115%;
+    right: -50px;
     bottom: 30%;
 }
 
